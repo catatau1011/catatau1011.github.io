@@ -99,6 +99,15 @@ text-align: center;
 
 }
 
+.navbar .navbar__mobile {
+   position: relative;
+}
 
+.navbar .navbar__mobile img.burguer {
+   position: absolute;
+   top: 5px; /* Ajuste a posição vertical conforme necessário */
+   right: 5px; /* Ajuste a posição horizontal conforme necessário */
+   cursor: pointer;
+}
    
  }
